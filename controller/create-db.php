@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__ . "/../model/database.php");
+require_once(__DIR__ . "/../model/config.php");
 $connection = new mysqli($host, $username, $password);
 if ($connection->connect_error) {
     die("<p>Error: . $connection->connect_error" . "</p>");
