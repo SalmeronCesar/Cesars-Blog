@@ -15,11 +15,18 @@ class Database {
     }
     //Here we are opening the connection
     public function openConnection(){
+        $this->connection = mysqli($this->host, $this->password, $this->database);
         
+        if ($this->connection->connect_error) {
+            die("<p>Error: . $this->connection->connect_error" . "</p>");
+        }
     }
-    //Here we are closing the connection
+
+    //Here we are closing the connection and also the if is checking if the function is set or not
     public function closeConnection(){
-        
+        if(isset($this->connection)) {
+            $this->connection->close();
+        }
     }
     
     public function query($string) {
