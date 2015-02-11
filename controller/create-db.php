@@ -27,10 +27,10 @@ $query = $connection->query("CREATE TABLE posts ("
 
 echo $query;
 
-//if($query) {
-//    echo "<p>Successfully created table: posts</p>";
-//}
-//else{
-//    echo "<p>$connection->error</p>";
-//}
+if($query) {
+    echo "<p>Successfully created table: posts</p>";
+}
+else{
+    echo "<p>$connection->error</p>";
+}
 $connection->close();
