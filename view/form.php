@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__ . "/..model/config.php");
+require_once(__DIR__ . "/../model/config.php");
 ?>
 
 <h1>Create Blog Posts</h1>
@@ -12,8 +12,8 @@ require_once(__DIR__ . "/..model/config.php");
     
     <div>
         <label for="post">Post: </label>
-        <textarea name="post"</textarea>
-    <div>
+        <textarea name="post"></textarea>
+    </div>
         
         <div>
             <button type="submit">Submit</button>
