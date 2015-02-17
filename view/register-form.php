@@ -1,7 +1,7 @@
 <?php
 require_once(__DIR__ . "/../model/config.php");
 ?>
-
+<!--This is the 1st header or title.-->
 <h1>Register</h1>
 
 <form method="post" action="<?php echo $path . "controller/create-user.php";?>">

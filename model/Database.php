@@ -7,24 +7,24 @@ class Database {
     private $password;
     private $database;
     public $error;
-    
+    //Here we contrust and make new functions.
     public function __construct($host, $username, $password, $database) {
         $this->host = $host;
         $this->username = $username;
         $this->password = $password;
         $this->database = $database;
-        
+        //The database equals a new mysqli with the host, username and password.
         $this->connection = new mysqli($host, $username, $password);
         
 if ($this->connection->connect_error) {
     die("<p>Error: . $connection->connect_error" . "</p>");
 }
-
+//The existing database is connection and also $database.
 $exists = $this->connection->select_db($database);
 
 if (!$exists) {
     $query = $this->connection->query("CREATE DATABASE $database");
-
+//Here we see if the question we ask "if the database was successfull and it was true."
     if ($query) {
         echo "<p>Successfully created database;" . $database . "</p>";
     }
@@ -56,7 +56,7 @@ if (!$exists) {
         if(!query) {
            $this->error = $this->connection->error;
         }
-        
+        //Overall we close the connection
         $this->closeConnection();
         
         return $query;
