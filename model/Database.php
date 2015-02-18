@@ -28,13 +28,11 @@ if (!$exists) {
     if ($query) {
         echo "<p>Successfully created database;" . $database . "</p>";
     }
-} else {
-    echo "<p>Database already exists.</p>";
-}
+} 
     }
     //Here we are opening the connection
     public function openConnection(){
-        $this->connection = mysqli($this->host, $this->password, $this->database);
+        $this->connection = new mysqli($this->host, $this->password, $this->database);
         
         if ($this->connection->connect_error) {
             die("<p>Error: . $this->connection->connect_error" . "</p>");
