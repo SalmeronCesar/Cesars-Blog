@@ -23,7 +23,7 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users("
 . "username varchar(30) NOT NULL,"
 . "email varchar(50) NOT NULL,"
 . "salt char(128) NOT NULL,"
-. "PRIMATY KEY(id))");
+. "PRIMARY KEY(id))");
 
 if($query) {
 echo "<p>Successfully created table: users</p>";

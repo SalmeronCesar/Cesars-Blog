@@ -32,7 +32,7 @@ if (!$exists) {
     }
     //Here we are opening the connection
     public function openConnection(){
-        $this->connection = new mysqli($this->host, $this->password, $this->database);
+        $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
         
         if ($this->connection->connect_error) {
             die("<p>Error: . $this->connection->connect_error" . "</p>");
@@ -51,7 +51,7 @@ if (!$exists) {
         
         $query = $this->connection->query($string);
         //Here we are asking a question if this connection has a error and currently it does not.
-        if(!query) {
+        if(!$query) {
            $this->error = $this->connection->error;
         }
         //Overall we close the connection

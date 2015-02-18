@@ -4,7 +4,7 @@ require_once(__DIR__ . "/../model/config.php");
 $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 //We input the filter to sanitize the username
 $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
-//We input the filter to sanitize the email
+//We input the filter to sanitize the password
 $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_EMAIL);
 
 echo $password;
