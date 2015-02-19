@@ -2,7 +2,7 @@
 require_once(__DIR__ . "/../model/config.php");
 //Here we input a filter to sanitize the title.
 //Here we input a filter to sanitize the posts.
-$title = fitler_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
+$title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
 $post = filter_input(INPUT_POST, "post", FILTER_SANITIZE_STRING);
 //We are setting the title to title and post to posts.
 $query = $_SESSION["connection"]->query("INSERT INTO posts SET title = '$title', post = '$post'");
