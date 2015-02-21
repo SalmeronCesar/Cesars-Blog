@@ -1,8 +1,10 @@
 <?php
 require_once(__DIR__ . "/../model/config.php");
-require_once(__DIR__ . "/controller/login-verify.php");
-
-if(authenticateUser()) {
+require_once(__DIR__ . "/../controller/login-verify.php");
+//Here if checks if the username is correct or not if not it restarts.
+//Here the locations wants to move to a path which is the index.php.
+if(!authenticateUser()) {
+    header("Location: " . $path . "index.php");
     die();
 }
 ?>

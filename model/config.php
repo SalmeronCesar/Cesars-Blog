@@ -2,7 +2,7 @@
 
 require_once(__DIR__ . "/database.php");
 session_start();
-//Here we regenerate the seesion when going to another page on the same website
+//Here we regenerate the session when going to another page on the same website
 session_regenerate_id(true);
 
 $path = "/Cesars-Blog/";
