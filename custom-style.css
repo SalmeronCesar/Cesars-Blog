@@ -1,6 +1,28 @@
 #nav{
-   text-align: center;
+    text-align: center;
     {
+        
         img{
             width: 700px;
         }
+        
+        body{
+    background-color: cadetblue;
+}
+        .jumbotron{
+            background-image: url('http://www.flightcentre.com.au/global-images/Product_Images/New/Cruise_Website/images/Destinations/Be_Inspired/Tropical_islands/Destinations_Be_Inspired_Tropical_islands_Island3.jpg');
+            margin-top: 25px;
+        }
+        
+        
+.jumbotron h1{
+    color: cadetblue;
+}
+ 
+.nav nav-tabs {
+    margin-top: 15px;
+}
+
+.jumbotron p{
+    color:black;
+}
