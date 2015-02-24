@@ -1,0 +1,204 @@
+/*I put div beacause I want to change the way the font is and how the border style
+is and padding to add space.Also *to change the font size and style.*/
+div{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000106;
+    padding: 30px;
+    font-size: x-large;
+    font-style: oblique;
+}
+/*container is the container */
+.container{
+    border-color: #000106;
+}
+/*.row p is on the index.html on the row border and changes the writing in the paragraph
+and changes the color, border color of the row.Also changes the font size and style and puts it more to the left.*/
+.row p{
+    color: whitesmoke;
+    border-color:#000106;
+    font-style: oblique;
+    font-size: x-large;
+    margin-left: 5%;
+}
+/*Body links to the index.html and put a background image and puts the background size to cover.*/
+body{
+    background-image: url("http://3.bp.blogspot.com/_bsfahNTj3tk/TUkXqp1otjI/AAAAAAAABDM/efmFzpnV-1A/s1600/space_bokeh_background_awake_seamless_tile_pattern_pattterns_tiles.jpg");
+    background-size: cover;
+}
+/*p means pargraph and im changing the color and font size and style.*/
+p {
+    color: whitesmoke;
+    font-size: large;
+    font-style: oblique;
+}
+
+.list-group-item{
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*# is a link that i id which links to the technology page and puts a background image and size.*/
+#technology{
+    background-image: url("http://0.s3.envato.com/files/15423029/dIMG_36f41.jpg");
+    background-size: cover;
+}
+/*h1 is the 1st header in my index page and puts it more to the left and changes the 
+font style and size and also changes the color. */
+h1{
+    margin-left: 15%;
+    font-style: oblique;
+    font-size: x-large;
+    color: whitesmoke;
+}
+/*# is a link that is a id and goes to the 1st header and changes the font size and style. */
+#project
+h1{
+    font-size: xx-large;
+    font-style: oblique;
+}
+/*is a link  to the technology page that changes the color and font size and style thats connected to the paragraph.*/
+#technology p {
+    color: whitesmoke;
+    font-size: xx-large;
+    font-style: oblique;
+}
+/*is a link to the technology page that changes the width and height in an image*/
+#technology
+img {
+    width: 250px;
+    height: auto;
+}
+
+#project {
+    background-image: url("http://wallpaperswa.com/thumbnails/detail/20120602/minimalistic%20textures%20backgrounds%20simple%20background%201920x1080%20wallpaper_wallpaperswa.com_25.jpg");
+    background-size: cover;
+}
+
+.row img{
+    width: 200px;
+    height: auto;
+}
+/*Here the 2nd header is being changes as in the color,font style and font size.*/
+h2{
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: x-large;
+}
+/*row div is a certain border that connects to the div and changes the color and font style aand size.*/
+.row div{
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: x-large;
+}
+/*jumbotron makes your words appear bigger.*/
+.jumbotron {
+    background-color: #000108;
+}
+/*jumbotron paragraph changes its color and font style and size.Also is puts it a little bit to the left.*/
+.jumbotron p{
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: large;
+    margin-left: 30%;
+}
+
+.jumbotron h1{
+    color: whitesmoke;
+}
+
+.jumbotron {
+    color: whitesmoke;
+}
+/*Here this # symbol connects to the Jquery "id" and puts a background image and bsckground size.*/
+#Jquery{
+    background-image: url("http://3.bp.blogspot.com/-qvzw1ZBmwnY/TnmW2F5TNfI/AAAAAAAAAKE/1m7GerGZDFE/s1600/Beautiful-Sunset-Background-Wallpapers12.png");
+    background-size: cover;
+}
+/*Here this # symbol connects to the draggable "id" and puts a new width,height and zero padding.*/
+#draggable{
+    width: 25px;
+    height: 25px;
+    padding:0px;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 320px;
+    height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+/*Here if you hover over the flipper container it will flip from front to back*/
+.flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
+    transform: rotateY(180deg);
+}
+
+.vertical.flip-container {
+    position: relative;
+}
+/*Here this is the back flipper.*/
+.vertical .back {
+    transform: rotateX(180deg);
+}
+
+.vertical.flip-container .flipper {
+    transform-origin: 100% 213.5px; /* half of height */
+}
+/*This make it turn negative 180 degrees and makes it flip back*/
+.vertical.flip-container:hover .flipper {
+    transform: rotateX(-180deg);
+}
+/*Here the 1st header is taking in changes as in the text align,font size and the font style.*/
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    color: whitesmoke;
+}
+/*Here the 2nd header is taking in changes as in the text align,font size and the font style.*/
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+}
+#project
+img {
+    width: 700px;
+    height: auto;
+}

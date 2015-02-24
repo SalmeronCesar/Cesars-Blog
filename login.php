@@ -1,4 +1,4 @@
-<link type="text/css" rel="stylesheet" href="css/custom-style.css"></link>
+<link type="text/css" rel="stylesheet" href="custom-style.css"></link>
 <!-- start navmenu --> 
 <style>
                    body{ background:none; margin: 0px; }
@@ -18,10 +18,6 @@
                 color: whitesmoke;
             }
         </style>
-            
-            <div id="nav">
-                <a class="active"  href="login.php">Register/Login</a><a href="index.php">Home</a>
-                <!-- end navmenu -->
                <div align="center" style="z-index:9;visibility:visible;"><a href="http://www.totallyfreecursors.com/" target="_blank" class="tfc"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/fireorange.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/fireorange.gif"), auto;}</style>
     <?php
 

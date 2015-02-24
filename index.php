@@ -1,9 +1,4 @@
-<link type="text/css" rel="stylesheet" href="css/custom-style.css"></link>
-<div class="jumbotron">
-  <h1>Hello and welcome to my Blog!</h1>
-  <p>Enjoy:)</p>             
-</div>
-<!-- start navmenu --> 
+
 <style>
                    body{ background:none; margin: 0px; }
             div#nav{padding: 24px;}
@@ -22,14 +17,6 @@
                 color: whitesmoke;
             }
         </style>
-            
-            <div id="nav">
-                <a class="active"  href="index.php">Home</a><a href="login.php">Register/Login</a>
-                <!-- end navmenu -->
-                <div id="draggable" class="ui-widget-content">
-                    <img src="https://s-media-cache-ak0.pinimg.com/236x/07/4c/e4/074ce4f6bf78abf294064f8166f80fcb.jpg" 
-                         alt="https://s-media-cache-ak0.pinimg.com/236x/07/4c/e4/074ce4f6bf78abf294064f8166f80fcb.jpg">
-                </div>
 <?php
 require_once(__DIR__ . "/controller/login-verify.php");
 require_once(__DIR__ . "/view/header.php");
