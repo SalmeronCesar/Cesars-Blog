@@ -1,5 +1,6 @@
+<!--Connects to the config.php file-->
 <?php
-require_once(__DIR__ . "/model/config.php");
+require_once(__DIR__ . "/../model/config.php");
 //We input the filter to sanitize the username
 //We input the filter to sanitize the password
 $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);

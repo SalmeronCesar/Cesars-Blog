@@ -23,8 +23,7 @@ and open the template in the editor.
         <!-- start navmenu -->
         <div id="nav">
             <!--The links to login.php, index.php, and to logout-user.php-->
-                <a class="active"  href="index.php">Home</a><a href="login.php">Register/Login</a><a href="controller/logout-user.php">Logout</a>
-<!--                <a href="index.html">Porfolio 2</a>-->
+                <a class="active"  href="index.php">Home</a><a href="login.php">Login</a><a href="register.php">Register</a><a href="controller/logout-user.php">Logout</a>
                 <!-- end navmenu -->
                 <!--This is the jumbotron a image or text that will be enlarged-->
                 <div class="jumbotron">

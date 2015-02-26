@@ -17,12 +17,6 @@
                 color: whitesmoke;
             }
         </style>
-<!--    lists: id, user_id, name
-users: id, name, etc
-column_types: id, type
-list_headers: id, list_id, column_type_id, name
-list_contents: id, list_header_id, content-->
-
 <?php
 //The time 
 date_default_timezone_set("America/Los_Angeles");
