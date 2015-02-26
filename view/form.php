@@ -3,6 +3,7 @@ require_once(__DIR__ . "/../model/config.php");
 require_once(__DIR__ . "/../controller/login-verify.php");
 //Here if checks if the username is correct or not if not it restarts.
 //Here the locations wants to move to a path which is the index.php.
+//Users are now comfirmed and the path here is index.php
 if(!authenticateUser()) {
     header("Location: " . $path . "index.php");
     die();
@@ -25,7 +26,8 @@ if(!authenticateUser()) {
     </div>
         
         <div>
-            <!--Here we create a button to submit.-->
+            <!--Here we create a button to submit and to logout.-->
             <button type="submit">Submit</button>
+            <button type="logout">Log out</button>
         </div>
 </form>

@@ -20,7 +20,8 @@ require_once(__DIR__ . "/../model/config.php");
     </div>
     
     <div>
-        <!--Here we created a button so we can submit our Username and password for the Blog-->
+        <!--Here we created a button so we can submit and log out our Username and password for the Blog-->
         <button type="submit">Submit</button>
+        <button type="logout">Log out</button>
     </div>
 </form>

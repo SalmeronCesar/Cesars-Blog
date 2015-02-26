@@ -7,25 +7,27 @@ and open the template in the editor.
 <!--This is the head or the beginning code that connects with the footer.-->
 <html>
     <head>
+        <!--This creates an image on the tab-->
+  <link rel="SHORTCUT ICON" href="http://hdwebm.com/wp-content/uploads/2014/09/cool-wallpaper-hd-for-boys.jpg"/>
+  <!--The title of the tab/website-->
+  <title>Cesars-Blog</title>
         <meta charset="UTF-8">
         <title></title>
+        <!--These are links to the bootstrap and css-->
         <link type="text/css" rel="stylesheet" href="custom-style.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     </head>
     <body>
-        <link rel="shortcut icon" href="http://juliewight.com/wp-content/uploads/2013/11/hd-cool-wallpapers.jpg">;
-
+        <div class="container">
         <!-- start navmenu -->
         <div id="nav">
-                <a class="active"  href="index.php">Home</a><a href="login.php">Register/Login</a>
+            <!--The links to login.php, index.php, and to logout-user.php-->
+                <a class="active"  href="index.php">Home</a><a href="login.php">Register/Login</a><a href="controller/logout-user.php">Logout</a>
+<!--                <a href="index.html">Porfolio 2</a>-->
                 <!-- end navmenu -->
+                <!--This is the jumbotron a image or text that will be enlarged-->
                 <div class="jumbotron">
-  <h1>Hello and welcome to my Blog!</h1>
-           
+  <h1>Hello and welcome to my Blog!</h1>     
 </div> 
-                <div id="draggable" class="ui-widget-content">
-                    <img src="" 
-                         alt="">
-                </div>
         </body>

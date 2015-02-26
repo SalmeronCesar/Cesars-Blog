@@ -1,12 +1,14 @@
 <?php
 
 require_once(__DIR__ . "/database.php");
+//session starts
 session_start();
 //Here we regenerate the session when going to another page on the same website
+//session is created
 session_regenerate_id(true);
-
+//Name of my Blog
 $path = "/Cesars-Blog/";
-
+//Host is localhost, username is root, password is root, and database is blog_db and this info is located at PHP myAdmin
 $host = "localhost";
 $username = "root";
 $password = "root";

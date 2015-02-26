@@ -60,4 +60,3 @@ if (!$exists) {
         return $query;
     }
 }
-
